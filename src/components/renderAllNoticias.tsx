@@ -10,21 +10,20 @@ export function RenderAllNoticias() {
       {getAllNoticias.map((noticia) => (
         <div
           key={noticia.id}
-          className="flex flex-col justify-between border border-gray-300 p-4 rounded-lg cursor-pointer hover:border-slate-300 hover:shadow-md transition-all duration-300 hover:bg-gray-100 h-[500px] bg-white"
+          className="flex flex-col justify-between border border-gray-300 p-4 pb-2 rounded-lg hover:border-slate-300 hover:shadow-md transition-all duration-300 hover:bg-gray-100 h-[500px] bg-white"
         >
-          <div className="flex justify-center items-center ">
+          <div className="flex justify-center items-center max-h-[50%]">
             <Image
               src={noticia.imagem}
               alt={noticia.titulo}
-              width={75}
-              height={75}
+              width={100}
+              height={100}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               quality={80}
               loading="lazy"
             />
           </div>
-
-          <div className="flex flex-glow flex-col pt-4 pb-4 ">
+          <div className="flex flex-glow flex-col pt-2 pb-1 max-h-[40%]">
             <h1 className="text-slate-800 text-2xl pb-3 card-config-2-lines">
               {noticia.titulo}
             </h1>
@@ -32,9 +31,9 @@ export function RenderAllNoticias() {
               {noticia.descricao}
             </p>
           </div>
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between max-h-[10%]">
             <p className="text-xs text-gray-500">
-              Postado em {noticia.data.toLocaleDateString()}
+              Postado em {noticia.dataDePublicacao.toLocaleDateString()}
             </p>
             <Link href={`/${noticia.id}`}>
               <Button>Leia mais</Button>
