@@ -13,7 +13,7 @@ export const getAllNoticias: GetAllNoticiasProps[] = [
   {
     id: 995,
     imagem:
-      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASkAAACqCAMAAADGFElyAAAAbFBMVEUAAAD///+5ubns7OzNzc3y8vKzs7NfX1+QkJBNTU0/Pz9zc3MaGhqYmJiAgIB2dnYTExNZWVni4uLGxsZFRUXS0tJsbGwqKiqjo6M4ODiKiorY2NjBwcEICAj29vbn5+cfHx8vLy+srKydnZ1rkYR2AAAC/UlEQVR4nO3aW5OiMBCG4W5UEA8zKp6POPP//+PieEoC1HqxThbyPhc7Gtyqrq9IoAMiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAyo4nvChriMPBdQVMkvgtoiuHZdwUNkS59V9AQo7XvCpoi4rr3mjXL+WuGX74raIjzzHcFTdFJfVfQENnYdwUNsT35ruCXzaOKU+MjssWS7J2plupqsH8cv3/4+J2ivUhUh6XBWLOuaS8yO9o/OW5lvrgd7ujtw2L7S1X7kGimpcG4Uxpa6d78mi2ML1Hvn5f1H0p0cMrcwYqk5FM/n1+2at6ch5JUuinNv6qkJNLV/eNGrcY4lKSmMtaDPViZlBwfd5odayYGlJTMuvZgdVJzve0cRM7KFkpS6WW5tudfdVLFuTe9/Ble/zwFlFSxQluDNUnJ7hLJSN3GOKSkZGfNv7qkRIvL5Kx0MKikJuY9QH1SQx2utfQwJqikitslYzA+bvsG4847Vi13P2ElJZkx/2LtmIxeeKPuHYUEl5QY86929hWL1HFRGgwtqURH98HapGLdLMvTL7SkJHqcLXVJJbq9pDV3hoNLSo73+VeT1EF/suy4R0NJ6nmGpPf5V5PU7np9HNgbMG5SxYo/auNbHWZS8nWbf9VJje9dzNZpfuykvlbTaLxv3yNTKynpXbd3K5N6NMgiXc3NI05S+XciG+sHrWAnNbjOv8qkjsbjPbUe9TlJnfM4a+E2sZ2UrHeXf6uSyjQ3/5f56oaR1CEvkjoXcTnbDS3gJCWny/yrSOrDagxlbVwyn0lNYul+ZNKPl9lK2sZN6qx5kVRvmliKLsa53s2Oz67meU6lMlnml7eqRtI6blLS3/30wTY5uc9BV/rsE6Pa5qfddi+uxuVOOTi99q0xbzLd+a6gMb77vitojC6vTr9osv/7b/Bj2sJu5E36G98VNAav5L8qb/Prdf9W2sZ9y/do377J23BSvWrSvr1wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH7A73zF94TJhF7AAAAAElFTkSuQmCC",
+      "https://img.freepik.com/fotos-premium/mercado-de-acoes-digital-grafico-grafico-negocios-bolsa-de-valores-negociacao-analise-investimento-financeiro_73523-5167.jpg",
     titulo: "Crescimento no Setor de Cibersegurança no Brasil",
     descricao:
       "Entre maio de 2023 e maio de 2024, o Brasil se posicionou como o terceiro país com maior crescimento na força de trabalho de cibersegurança, conforme dados exclusivos do LinkedIn Economic Graph. O crescimento foi de 4,5%, colocando o país atrás apenas da Alemanha (4,7%) e da Espanha (5,5%). Este aumento reflete uma crescente demanda por profissionais qualificados em um cenário global cada vez mais focado na proteção contra ameaças cibernéticas.",
@@ -45,7 +45,7 @@ export const getAllNoticias: GetAllNoticiasProps[] = [
   {
     id: 996,
     imagem:
-      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASkAAACqCAMAAADGFElyAAAAbFBMVEUAAAD///+5ubns7OzNzc3y8vKzs7NfX1+QkJBNTU0/Pz9zc3MaGhqYmJiAgIB2dnYTExNZWVni4uLGxsZFRUXS0tJsbGwqKiqjo6M4ODiKiorY2NjBwcEICAj29vbn5+cfHx8vLy+srKydnZ1rkYR2AAAC/UlEQVR4nO3aW5OiMBCG4W5UEA8zKp6POPP//+PieEoC1HqxThbyPhc7Gtyqrq9IoAMiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAyo4nvChriMPBdQVMkvgtoiuHZdwUNkS59V9AQo7XvCpoi4rr3mjXL+WuGX74raIjzzHcFTdFJfVfQENnYdwUNsT35ruCXzaOKU+MjssWS7J2plupqsH8cv3/4+J2ivUhUh6XBWLOuaS8yO9o/OW5lvrgd7ujtw2L7S1X7kGimpcG4Uxpa6d78mi2ML1Hvn5f1H0p0cMrcwYqk5FM/n1+2at6ch5JUuinNv6qkJNLV/eNGrcY4lKSmMtaDPViZlBwfd5odayYGlJTMuvZgdVJzve0cRM7KFkpS6WW5tudfdVLFuTe9/Ble/zwFlFSxQluDNUnJ7hLJSN3GOKSkZGfNv7qkRIvL5Kx0MKikJuY9QH1SQx2utfQwJqikitslYzA+bvsG4847Vi13P2ElJZkx/2LtmIxeeKPuHYUEl5QY86929hWL1HFRGgwtqURH98HapGLdLMvTL7SkJHqcLXVJJbq9pDV3hoNLSo73+VeT1EF/suy4R0NJ6nmGpPf5V5PU7np9HNgbMG5SxYo/auNbHWZS8nWbf9VJje9dzNZpfuykvlbTaLxv3yNTKynpXbd3K5N6NMgiXc3NI05S+XciG+sHrWAnNbjOv8qkjsbjPbUe9TlJnfM4a+E2sZ2UrHeXf6uSyjQ3/5f56oaR1CEvkjoXcTnbDS3gJCWny/yrSOrDagxlbVwyn0lNYul+ZNKPl9lK2sZN6qx5kVRvmliKLsa53s2Oz67meU6lMlnml7eqRtI6blLS3/30wTY5uc9BV/rsE6Pa5qfddi+uxuVOOTi99q0xbzLd+a6gMb77vitojC6vTr9osv/7b/Bj2sJu5E36G98VNAav5L8qb/Prdf9W2sZ9y/do377J23BSvWrSvr1wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH7A73zF94TJhF7AAAAAElFTkSuQmCC",
+      "https://static.poder360.com.br/2024/05/joe-biden-dezembro-2023-848x477.jpg",
     titulo:
       "Biden Lança Novas Regras para Facilitar Cancelamentos e Melhorar o Atendimento ao Consumidor",
     descricao:
@@ -79,9 +79,9 @@ export const getAllNoticias: GetAllNoticiasProps[] = [
   {
     id: 997,
     imagem:
-      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASkAAACqCAMAAADGFElyAAAAbFBMVEUAAAD///+5ubns7OzNzc3y8vKzs7NfX1+QkJBNTU0/Pz9zc3MaGhqYmJiAgIB2dnYTExNZWVni4uLGxsZFRUXS0tJsbGwqKiqjo6M4ODiKiorY2NjBwcEICAj29vbn5+cfHx8vLy+srKydnZ1rkYR2AAAC/UlEQVR4nO3aW5OiMBCG4W5UEA8zKp6POPP//+PieEoC1HqxThbyPhc7Gtyqrq9IoAMiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAyo4nvChriMPBdQVMkvgtoiuHZdwUNkS59V9AQo7XvCpoi4rr3mjXL+WuGX74raIjzzHcFTdFJfVfQENnYdwUNsT35ruCXzaOKU+MjssWS7J2plupqsH8cv3/4+J2ivUhUh6XBWLOuaS8yO9o/OW5lvrgd7ujtw2L7S1X7kGimpcG4Uxpa6d78mi2ML1Hvn5f1H0p0cMrcwYqk5FM/n1+2at6ch5JUuinNv6qkJNLV/eNGrcY4lKSmMtaDPViZlBwfd5odayYGlJTMuvZgdVJzve0cRM7KFkpS6WW5tudfdVLFuTe9/Ble/zwFlFSxQluDNUnJ7hLJSN3GOKSkZGfNv7qkRIvL5Kx0MKikJuY9QH1SQx2utfQwJqikitslYzA+bvsG4847Vi13P2ElJZkx/2LtmIxeeKPuHYUEl5QY86929hWL1HFRGgwtqURH98HapGLdLMvTL7SkJHqcLXVJJbq9pDV3hoNLSo73+VeT1EF/suy4R0NJ6nmGpPf5V5PU7np9HNgbMG5SxYo/auNbHWZS8nWbf9VJje9dzNZpfuykvlbTaLxv3yNTKynpXbd3K5N6NMgiXc3NI05S+XciG+sHrWAnNbjOv8qkjsbjPbUe9TlJnfM4a+E2sZ2UrHeXf6uSyjQ3/5f56oaR1CEvkjoXcTnbDS3gJCWny/yrSOrDagxlbVwyn0lNYul+ZNKPl9lK2sZN6qx5kVRvmliKLsa53s2Oz67meU6lMlnml7eqRtI6blLS3/30wTY5uc9BV/rsE6Pa5qfddi+uxuVOOTi99q0xbzLd+a6gMb77vitojC6vTr9osv/7b/Bj2sJu5E36G98VNAav5L8qb/Prdf9W2sZ9y/do377J23BSvWrSvr1wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH7A73zF94TJhF7AAAAAElFTkSuQmCC",
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg83J8ii_6n7kz3Q4T3su_46-ASPjQiCnGTqbgBjyWUdIIw4WEJI2l6rAglm2ui5XWt-5fCvUgUPNwc_PDSSKSB4aB7szp1dsMv7kj8uH8XNIw1is1IlSy1Qg3oFr4lV3P2mSudNDuCSRsnvLWbldYAiKlk8flfWX98GlvTyWqOHVBOgIaQXGXuuALfKhmQ/s640/IMG_3184.jpeg",
     titulo:
-      "Neuralink Avança em Implantes Cerebrais: Novo Paciente Embarca na Jornada Tecnológica",
+      "Neuralink Avança em Implantes Cerebrais: Segundo Paciente Recebe o Chip Cerebral",
     descricao:
       "A Neuralink faz história ao realizar a implantação de um chip cerebral em seu segundo paciente, ampliando as possibilidades para pessoas com lesões na medula espinhal. O avanço promete transformar a interação com a tecnologia e melhorar a qualidade de vida.",
     mostrarDescricaoNaNoticia: true,
@@ -122,8 +122,7 @@ export const getAllNoticias: GetAllNoticiasProps[] = [
   },
   {
     id: 998,
-    imagem:
-      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASkAAACqCAMAAADGFElyAAAAbFBMVEUAAAD///+5ubns7OzNzc3y8vKzs7NfX1+QkJBNTU0/Pz9zc3MaGhqYmJiAgIB2dnYTExNZWVni4uLGxsZFRUXS0tJsbGwqKiqjo6M4ODiKiorY2NjBwcEICAj29vbn5+cfHx8vLy+srKydnZ1rkYR2AAAC/UlEQVR4nO3aW5OiMBCG4W5UEA8zKp6POPP//+PieEoC1HqxThbyPhc7Gtyqrq9IoAMiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAyo4nvChriMPBdQVMkvgtoiuHZdwUNkS59V9AQo7XvCpoi4rr3mjXL+WuGX74raIjzzHcFTdFJfVfQENnYdwUNsT35ruCXzaOKU+MjssWS7J2plupqsH8cv3/4+J2ivUhUh6XBWLOuaS8yO9o/OW5lvrgd7ujtw2L7S1X7kGimpcG4Uxpa6d78mi2ML1Hvn5f1H0p0cMrcwYqk5FM/n1+2at6ch5JUuinNv6qkJNLV/eNGrcY4lKSmMtaDPViZlBwfd5odayYGlJTMuvZgdVJzve0cRM7KFkpS6WW5tudfdVLFuTe9/Ble/zwFlFSxQluDNUnJ7hLJSN3GOKSkZGfNv7qkRIvL5Kx0MKikJuY9QH1SQx2utfQwJqikitslYzA+bvsG4847Vi13P2ElJZkx/2LtmIxeeKPuHYUEl5QY86929hWL1HFRGgwtqURH98HapGLdLMvTL7SkJHqcLXVJJbq9pDV3hoNLSo73+VeT1EF/suy4R0NJ6nmGpPf5V5PU7np9HNgbMG5SxYo/auNbHWZS8nWbf9VJje9dzNZpfuykvlbTaLxv3yNTKynpXbd3K5N6NMgiXc3NI05S+XciG+sHrWAnNbjOv8qkjsbjPbUe9TlJnfM4a+E2sZ2UrHeXf6uSyjQ3/5f56oaR1CEvkjoXcTnbDS3gJCWny/yrSOrDagxlbVwyn0lNYul+ZNKPl9lK2sZN6qx5kVRvmliKLsa53s2Oz67meU6lMlnml7eqRtI6blLS3/30wTY5uc9BV/rsE6Pa5qfddi+uxuVOOTi99q0xbzLd+a6gMb77vitojC6vTr9osv/7b/Bj2sJu5E36G98VNAav5L8qb/Prdf9W2sZ9y/do377J23BSvWrSvr1wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH7A73zF94TJhF7AAAAAElFTkSuQmCC",
+    imagem: "https://i.ytimg.com/vi/q-Fnl8EpHMY/maxresdefault.jpg",
     titulo:
       "Brasil em Alerta: Segundo País Mais Afetado por Roubo Online de Cartões",
     descricao:
@@ -175,7 +174,7 @@ export const getAllNoticias: GetAllNoticiasProps[] = [
   {
     id: 999,
     imagem:
-      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASkAAACqCAMAAADGFElyAAAAbFBMVEUAAAD///+5ubns7OzNzc3y8vKzs7NfX1+QkJBNTU0/Pz9zc3MaGhqYmJiAgIB2dnYTExNZWVni4uLGxsZFRUXS0tJsbGwqKiqjo6M4ODiKiorY2NjBwcEICAj29vbn5+cfHx8vLy+srKydnZ1rkYR2AAAC/UlEQVR4nO3aW5OiMBCG4W5UEA8zKp6POPP//+PieEoC1HqxThbyPhc7Gtyqrq9IoAMiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAyo4nvChriMPBdQVMkvgtoiuHZdwUNkS59V9AQo7XvCpoi4rr3mjXL+WuGX74raIjzzHcFTdFJfVfQENnYdwUNsT35ruCXzaOKU+MjssWS7J2plupqsH8cv3/4+J2ivUhUh6XBWLOuaS8yO9o/OW5lvrgd7ujtw2L7S1X7kGimpcG4Uxpa6d78mi2ML1Hvn5f1H0p0cMrcwYqk5FM/n1+2at6ch5JUuinNv6qkJNLV/eNGrcY4lKSmMtaDPViZlBwfd5odayYGlJTMuvZgdVJzve0cRM7KFkpS6WW5tudfdVLFuTe9/Ble/zwFlFSxQluDNUnJ7hLJSN3GOKSkZGfNv7qkRIvL5Kx0MKikJuY9QH1SQx2utfQwJqikitslYzA+bvsG4847Vi13P2ElJZkx/2LtmIxeeKPuHYUEl5QY86929hWL1HFRGgwtqURH98HapGLdLMvTL7SkJHqcLXVJJbq9pDV3hoNLSo73+VeT1EF/suy4R0NJ6nmGpPf5V5PU7np9HNgbMG5SxYo/auNbHWZS8nWbf9VJje9dzNZpfuykvlbTaLxv3yNTKynpXbd3K5N6NMgiXc3NI05S+XciG+sHrWAnNbjOv8qkjsbjPbUe9TlJnfM4a+E2sZ2UrHeXf6uSyjQ3/5f56oaR1CEvkjoXcTnbDS3gJCWny/yrSOrDagxlbVwyn0lNYul+ZNKPl9lK2sZN6qx5kVRvmliKLsa53s2Oz67meU6lMlnml7eqRtI6blLS3/30wTY5uc9BV/rsE6Pa5qfddi+uxuVOOTi99q0xbzLd+a6gMb77vitojC6vTr9osv/7b/Bj2sJu5E36G98VNAav5L8qb/Prdf9W2sZ9y/do377J23BSvWrSvr1wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH7A73zF94TJhF7AAAAAElFTkSuQmCC",
+      "https://img.odcdn.com.br/wp-content/uploads/2022/08/shutterstock_1465754660.jpg",
     titulo:
       "Lacunas de Segurança no macOS: Estudo Revela Desempenho Preocupante",
     descricao:
@@ -202,8 +201,7 @@ export const getAllNoticias: GetAllNoticiasProps[] = [
   },
   {
     id: 1000,
-    imagem:
-      "https://plus.unsplash.com/premium_photo-1663089889337-6eaafda19567?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Q3Jlc2NpbWVudG8lMjBubyUyMFNldG9yJTIwZGUlMjBDaWJlcnNlZ3VyYW4lQzMlQTdhJTIwbm8lMjBCcmFzaWx8ZW58MHx8MHx8fDA%3D",
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
     titulo:
       "Ex-Engenheiro do Google Critica o Estado Atual do Desenvolvimento de Software",
     descricao:
@@ -234,6 +232,270 @@ export const getAllNoticias: GetAllNoticiasProps[] = [
           <h2 class="text-2xl mb-4">Conclusão</h2>
           <p>As observações de Avery Pennarun sobre o estado atual do desenvolvimento de software oferecem uma perspectiva valiosa sobre as práticas predominantes na indústria. Sua crítica ao foco excessivo em escalabilidade e complexidade destaca a necessidade de uma abordagem mais pragmática e centrada nas necessidades reais dos usuários. À medida que o setor continua a evoluir, talvez seja hora de reconsiderar essas prioridades e buscar soluções que promovam a simplicidade, a eficiência e a satisfação dos desenvolvedores.</p>
       </section>`,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1001,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE777",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1002,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE888",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1003,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE999",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1004,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE999",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1005,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE10",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1006,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE11",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1007,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE12",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1008,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE13",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1009,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE14",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1010,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE15",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1011,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE16",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1012,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE17",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1013,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE18",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1014,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE19",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1015,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE20",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1016,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE21",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1017,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE22",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1018,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE23",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1019,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE24",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1020,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE25",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1021,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE26",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
+    dataDePublicacao: new Date("08/15/2024"),
+  },
+  {
+    id: 1022,
+    imagem: "https://miro.medium.com/v2/resize:fit:1033/0*sedLR7F4ZWsaG-Nu.png",
+    titulo: "TESTE27",
+    descricao: "TESTE",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 7,
+    conteudoNoticia: `
+      <h1> teste </h1>
+    `,
     dataDePublicacao: new Date("08/15/2024"),
   },
 ];
