@@ -16,7 +16,6 @@ export function RenderAllNoticias({
 
   let noticiasParaRenderizar;
 
-  console.log(search);
   if (search && search.length > 0) {
     noticiasParaRenderizar = getAllNoticias.filter((noticia) =>
       noticia.titulo.toLowerCase().includes(search.toLowerCase())

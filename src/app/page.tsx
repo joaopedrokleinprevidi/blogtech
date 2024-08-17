@@ -2,6 +2,7 @@ import { Pagination } from "@/components/pagination";
 import { RenderAllNoticias } from "@/components/renderAllNoticias";
 import { SearchInput } from "@/components/search-input";
 import { getAllNoticias } from "@/services/getAllNoticias";
+import { Trash } from "lucide-react";
 
 export default function Home({
   searchParams: { page = 1, search },
@@ -15,7 +16,6 @@ export default function Home({
   const totalCards = getAllNoticias.length;
   const totalPages = Math.ceil(totalCards / 4);
 
-  // const searchQuery = searchParams?.search ? searchParams.search : "";
   return (
     <>
       <div className="p-8 pb-0 flex flex-col justify-center items-center">
@@ -27,14 +27,14 @@ export default function Home({
           acompanhe os eventos que estão moldando o futuro da tech.
         </p>
         <SearchInput />
-        {totalCards > 4 && (
+        {totalCards > 4 && search === undefined && (
           <div className="mt-8">
             <Pagination currentPage={pageIndex} totalPages={totalPages} />
           </div>
         )}
       </div>
-      <RenderAllNoticias currentPage={pageIndex} />
-      {totalCards > 4 && (
+      <RenderAllNoticias currentPage={pageIndex} search={search} />
+      {totalCards > 4 && search === undefined && (
         <div className="mb-8 flex justify-center">
           <Pagination currentPage={pageIndex} totalPages={totalPages} />
         </div>
