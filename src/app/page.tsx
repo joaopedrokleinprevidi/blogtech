@@ -1,8 +1,7 @@
 import { Pagination } from "@/components/pagination";
 import { RenderAllNoticias } from "@/components/renderAllNoticias";
 import { SearchInput } from "@/components/search-input";
-import { getAllNoticias } from "@/services/getAllNoticias";
-import { Trash } from "lucide-react";
+import { getAllNoticias, GetAllNoticiasProps } from "@/services/getAllNoticias";
 
 export default function Home({
   searchParams: { page = 1, search },
@@ -12,9 +11,23 @@ export default function Home({
     search?: string;
   };
 }) {
-  const pageIndex = !!page ? page - 1 : 1; // Ajustado para que contagem comece do zero
-  const totalCards = getAllNoticias.length;
-  const totalPages = Math.ceil(totalCards / 4);
+  const pageIndex: number = !!page ? page - 1 : 1; // Ajustado para que contagem comece do zero
+
+  let noticiasParaRenderizar: GetAllNoticiasProps[];
+  let totalCards: number;
+
+  if (search && search.length > 0) {
+    noticiasParaRenderizar = getAllNoticias.filter((noticia) =>
+      noticia.titulo.toLowerCase().includes(search.toLowerCase())
+    );
+    totalCards = noticiasParaRenderizar.length;
+  } else {
+    noticiasParaRenderizar = getAllNoticias;
+    totalCards = noticiasParaRenderizar.length;
+  }
+
+  const noticiasPorPagina = 4;
+  const totalPages = Math.ceil(totalCards / noticiasPorPagina);
 
   return (
     <>
@@ -27,16 +40,20 @@ export default function Home({
           acompanhe os eventos que estão moldando o futuro da tech.
         </p>
         <SearchInput />
-        {totalCards > 4 && search === undefined && (
+        {totalCards > noticiasPorPagina && (
           <div className="mt-8">
-            <Pagination currentPage={pageIndex} totalPages={totalPages} />
+            <Pagination totalPages={totalPages} isSearching={!!search} />
           </div>
         )}
       </div>
-      <RenderAllNoticias currentPage={pageIndex} search={search} />
-      {totalCards > 4 && search === undefined && (
+      <RenderAllNoticias
+        currentPage={pageIndex}
+        noticiasPorPagina={noticiasPorPagina}
+        noticias={noticiasParaRenderizar}
+      />
+      {totalCards > noticiasPorPagina && (
         <div className="mb-8 flex justify-center">
-          <Pagination currentPage={pageIndex} totalPages={totalPages} />
+          <Pagination totalPages={totalPages} isSearching={!!search} />
         </div>
       )}
       <script

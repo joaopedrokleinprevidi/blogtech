@@ -4,11 +4,13 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useQueryState, parseAsInteger } from "nuqs";
 import { Button } from "./ui/button";
 import { Tooltip } from "./tooltip";
+import { useEffect } from "react";
 
 export function Pagination({
   totalPages,
+  isSearching,
 }: {
-  currentPage: number;
+  isSearching: boolean;
   totalPages: number;
 }) {
   const [page, setPage] = useQueryState(
@@ -33,6 +35,13 @@ export function Pagination({
   const hasPages = totalPages > 0;
 
   if (!hasPages) return null;
+
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useEffect(() => {
+    if (isSearching) {
+      setPage(1);
+    }
+  }, [isSearching, setPage]);
 
   return (
     <div className="flex items-center gap-4 justify-end">

@@ -17,10 +17,14 @@ export function SearchInput() {
       <Input
         id="search"
         placeholder="Buscar notícias..."
+        autoComplete="off"
         className="w-48 h-8 rounded-md bg-gray-100 border border-slate-400 focus:border-black focus:outline-0 text-black placeholder-gray-200"
         value={search || ""}
         onChange={(e) => {
           setSearch(e.target.value);
+          if (e.target.value.length == 0) {
+            setSearch(null);
+          }
         }}
       />
       {search && search.length > 0 && (
