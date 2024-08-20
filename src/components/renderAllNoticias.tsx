@@ -43,6 +43,7 @@ export function RenderAllNoticias({
               }}
               quality={80}
               loading="lazy"
+              priority
             />
           </div>
 

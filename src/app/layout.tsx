@@ -4,6 +4,7 @@ import { Footer } from "@/components/footer";
 
 export const metadata = {
   title: "Techformando",
+  description: "Um portal de notícias sobre tecnologia.",
 };
 
 export default function RootLayout({
