@@ -2,6 +2,7 @@ import { Pagination } from "@/components/pagination";
 import { RenderAllNoticias } from "@/components/renderAllNoticias";
 import { SearchInput } from "@/components/search-input";
 import { getAllNoticias, GetAllNoticiasProps } from "@/services/getAllNoticias";
+import "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2883204152245588";
 
 export default function Home({
   searchParams: { page = 1, search },
@@ -56,11 +57,6 @@ export default function Home({
           <Pagination totalPages={totalPages} isSearching={!!search} />
         </div>
       )}
-      <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2883204152245588"
-        crossOrigin="anonymous"
-      ></script>
     </>
   );
 }

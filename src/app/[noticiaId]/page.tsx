@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { getNoticia } from "@/services/getNoticia";
 import Link from "next/link";
 import { ArrowLeftCircle } from "lucide-react";
-import { Tooltip } from "@/components/tooltip";
+import "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2883204152245588";
 
 export default function Noticia({ params }: { params: { noticiaId: string } }) {
   const noticia = getNoticia(parseInt(params.noticiaId));
@@ -51,11 +51,6 @@ export default function Noticia({ params }: { params: { noticiaId: string } }) {
           </Button>
         </Link>
       </div>
-      <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2883204152245588"
-        crossOrigin="anonymous"
-      ></script>
     </>
   );
 }
