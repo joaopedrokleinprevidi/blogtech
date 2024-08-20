@@ -28,7 +28,10 @@ export function RenderAllNoticias({
           key={noticia.id}
           className="flex flex-col justify-between :sm:gap-3 border border-gray-300 p-4 pb-2 rounded-lg hover:border-slate-300 hover:shadow-md transition-all duration-300 hover:bg-gray-100 h-[550px] sm:h-[600px] bg-white"
         >
-          <div className="flex justify-center items-center h-[50%]">
+          <Link
+            href={`/${noticia.id}`}
+            className="flex justify-center items-center h-[50%]"
+          >
             <Image
               src={noticia.imagem}
               alt={noticia.titulo}
@@ -43,9 +46,8 @@ export function RenderAllNoticias({
               }}
               quality={80}
               loading="lazy"
-              priority
             />
-          </div>
+          </Link>
 
           <div className="flex flex-col pt-2 gap-3 pb-1 max-h-[40%] sm:pl-2">
             <h1 className="text-slate-800 text-xl sm:text-2xl lg:text-3xl line-clamp-3 ">
