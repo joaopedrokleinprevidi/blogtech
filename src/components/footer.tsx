@@ -12,8 +12,8 @@ export function Footer() {
         rel="noopener noreferrer"
       >
         <div className="cursor-pointer flex items-center gap-1">
-          <FaSquareXTwitter className="h-5 w-5" />
-          <p className="text-sm">Techformando</p>
+          <FaSquareXTwitter className="h-6 w-6" />
+          <p className="text-base">Techformando</p>
         </div>
       </a>
     </footer>

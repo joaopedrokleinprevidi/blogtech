@@ -15,7 +15,7 @@ export function Header() {
         Transformando informação em evolução contínua.
       </h2>
       <div className="flex gap-3 items-center mt-4">
-        <h3 className="text-sm text-gray-500 text-center">Siga-nos</h3>
+        <h3 className="text-sm text-gray-400 text-center">Siga-nos</h3>
         <a
           href="https://x.com/Techformando"
           target="_blank"

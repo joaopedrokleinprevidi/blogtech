@@ -51,6 +51,7 @@ export function Pagination({
       <div className="flex gap-1 text-gray-700">
         <Tooltip text="Página anterior">
           <Button
+            aria-label="Página anterior"
             variant="outline"
             size="icon"
             className="h-8 w-8"
@@ -62,6 +63,7 @@ export function Pagination({
         </Tooltip>
         <Tooltip text="Página seguinte">
           <Button
+            aria-label="Página seguinte"
             variant="outline"
             size="icon"
             className="h-8 w-8"
