@@ -11,6 +11,39 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 990,
+    imagem:
+      "https://s2-epocanegocios.glbimg.com/AetKjdVKhb_040UhhQpiE8V0XL4=/0x0:1920x991/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e536e40f1baf4c1a8bf1ed12d20577fd/internal_photos/bs/2024/6/u/TAaOlBTyCTqB0mpcnvfQ/optimus-tesla.jpg",
+    titulo:
+      "Elon Musk Oferece 6 Mil Euros para Treinadores de Robôs: Desafio e Oportunidade na Tesla",
+    descricao:
+      "Elon Musk está oferecendo salários de até 6 mil euros para quem aceitar o desafio de treinar robôs humanoides da Tesla. Conheça os requisitos rigorosos e descubra o que é necessário para se tornar um dos pioneiros nessa inovadora missão tecnológica.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 3,
+    conteudoNoticia: `
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">A Revolução Robótica da Tesla</h2>
+            <p class="mb-4">A Tesla, sob a liderança visionária de Elon Musk, está prestes a mudar o panorama da robótica. Com planos de introduzir robôs humanoides no mercado até 2026, a empresa está procurando indivíduos dispostos a enfrentar um desafio inédito: treinar esses robôs para executar tarefas complexas. Esta oportunidade não apenas marca um avanço significativo na tecnologia, mas também oferece um atrativo salário de até 6 mil euros mensais.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Desafio da Vaga</h2>
+            <p class="mb-4">A posição de treinador de robôs na Tesla oferece uma remuneração impressionante de até 43 euros por hora, resultando em um salário total que pode superar os 6 mil euros por mês. No entanto, a função exige um alto nível de resistência física e disponibilidade. Os selecionados terão um dia de trabalho repleto de atividades físicas como sentar, curvar-se, ficar em pé e girar, e precisarão se adaptar a turnos diurnos e noturnos, bem como trabalhar nos finais de semana, se necessário.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Requisitos Estritos para os Candidatos</h2>
+            <p class="mb-4">Os requisitos para se tornar um treinador de robôs são bastante específicos. Candidatos devem ter entre 1,70m e 1,80m de altura para se ajustar aos trajes de captura de movimento utilizados no treinamento dos robôs. Além disso, a função exige uma excelente condição física e flexibilidade para trabalhar em horários variados. O planejamento da Tesla para 2026 é ter um robô humanoide em cada lar, o que representa um desafio empolgante e uma grande oportunidade para quem está disposto a se envolver na missão.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Futuro da Robótica com Elon Musk</h2>
+            <p class="mb-4">Elon Musk é conhecido por suas visões audaciosas, e sua crença no potencial dos robôs humanoides é um reflexo dessa filosofia. Ele imagina um futuro onde esses robôs desempenharão um papel central na vida cotidiana das pessoas, e a Tesla está se preparando para transformar essa visão em realidade. A contratação de treinadores é uma etapa essencial para alcançar essa meta revolucionária.</p>
+        </section>
+`,
+    dataDePublicacao: new Date("08/21/2024"),
+  },
+  {
     id: 991,
     imagem:
       "https://tudosobredrones.com.br/wp-content/uploads/2024/04/Uso-da-IA-em-mapeamento-aereo-impulsionando-projetos-de-engenharia-e-urbanismo.jpg.webp",

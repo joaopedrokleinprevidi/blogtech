@@ -122,6 +122,12 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "s2-epocanegocios.glbimg.com",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };
