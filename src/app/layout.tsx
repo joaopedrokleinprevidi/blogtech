@@ -22,6 +22,8 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2883204152245588"
           crossOrigin="anonymous"
         ></script>
+        <script src="https://jsc.mgid.com/site/978806.js" async></script>
+
         <meta name="google-adsense-account" content="ca-pub-2883204152245588" />
       </head>
       <body className="bg-gray-50 flex flex-col justify-between h-screen">
