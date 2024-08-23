@@ -128,6 +128,12 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "imagens.ne10.uol.com.br",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };

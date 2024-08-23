@@ -11,6 +11,45 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 988,
+    imagem:
+      "https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2024/08/20/806x444/1_pessoa_que_usa_a_ferramenta_ai_no_trabalho_1___freepick-28696052.jpg?66c4a4f4c6976",
+    titulo:
+      "Curso Gratuito de Inteligência Artificial do Santander e Google: Transforme Sua Carreira Hoje!",
+    descricao:
+      "O Santander e o Google estão oferecendo um curso gratuito de Inteligência Artificial para você! Descubra como essa tecnologia pode impulsionar sua carreira e aprenda com líderes do setor. Inscreva-se agora e esteja preparado para o futuro do trabalho.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 3,
+    conteudoNoticia: `
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Oportunidade Imperdível: Curso de IA Gratuito</h2>
+            <p class="mb-4">O Santander e o Google estão oferecendo uma chance imperdível para você aprimorar suas habilidades com o curso “Santander | Google: Inteligência Artificial e Produtividade”. Totalmente gratuito e disponível em espanhol, inglês e português, este curso é uma porta de entrada para o futuro tecnológico. Inscreva-se até 31 de dezembro e descubra como a Inteligência Artificial pode transformar sua vida profissional e pessoal.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Conteúdo Descomplicado e Acessível</h2>
+            <p class="mb-4">O curso é dividido em dois módulos claros e objetivos. O primeiro módulo introduz os conceitos fundamentais da IA, além de explorar como a ferramenta Gemini do Google pode elevar sua produtividade no trabalho. No segundo módulo, você aprenderá a automatizar tarefas e a criar comandos precisos, aproveitando ao máximo as capacidades da IA.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Certificação e Reconhecimento</h2>
+            <p class="mb-4">Ao final do curso, você será avaliado e, se atingir a nota mínima, receberá um certificado de conclusão. Este documento é um valioso comprovante de horas complementares, que pode enriquecer seu currículo e destacar suas novas habilidades em IA.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Impacto e Futuro da IA</h2>
+            <p class="mb-4">Com a IA revolucionando a forma como trabalhamos e vivemos, esta parceria entre o Santander e o Google oferece uma ferramenta essencial para profissionais que desejam se destacar no mercado. Rafael Hernández, vice-diretor global do Santander Universidades, destaca que a bolsa de estudo é fundamental para aumentar a competitividade e a adaptação às novas demandas do mercado.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Compromisso com a Educação</h2>
+            <p class="mb-4">Covadonga Soto, diretora de Marketing do Google Espanha e Portugal, reforça o compromisso compartilhado com a democratização da educação em IA. Ao oferecer este curso, o Santander e o Google visam desbloquear novas oportunidades de crescimento pessoal e profissional para todos.</p>
+        </section>
+    `,
+    dataDePublicacao: new Date("08/23/2024"),
+  },
+
+  {
     id: 989,
     imagem:
       "https://s2-g1.glbimg.com/9hNaDFyd9LW7IYCTOJeuL3Lkq9I=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/P/w/8ulV0STS2BAZkAY6XF1Q/2023-02-14t212409z-1-lynxmpej1d10r-rtroptp-4-argentina-brazil.jpg",
