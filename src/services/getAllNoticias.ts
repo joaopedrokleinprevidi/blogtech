@@ -11,6 +11,40 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 989,
+    imagem:
+      "https://s2-g1.glbimg.com/9hNaDFyd9LW7IYCTOJeuL3Lkq9I=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/P/w/8ulV0STS2BAZkAY6XF1Q/2023-02-14t212409z-1-lynxmpej1d10r-rtroptp-4-argentina-brazil.jpg",
+    titulo:
+      "Governo Vai Taxar Sites de Apostas: Multas e Regras Rigorosas Entram em Cena",
+    descricao:
+      "O Brasil está prestes a transformar o mercado de apostas online com novas regras e taxas pesadas. Descubra como a regulamentação impactará operadores e apostadores a partir de 2025.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 2,
+
+    conteudoNoticia: `
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Entenda as Novas Taxas</h2>
+            <p class="mb-4">Com a proximidade da implementação da lei das bets, o Ministério da Fazenda recebeu 113 pedidos de autorização de empresas de apostas. A partir de janeiro de 2025, as novas regras prometem alterar significativamente o mercado.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Custos e Requisitos</h2>
+            <p class="mb-4">Cada site de apostas autorizado terá que pagar R$ 30 milhões para operar com até três marcas por cinco anos. Sem a autorização, as multas podem chegar a R$ 2 bilhões. As empresas devem cumprir critérios rigorosos, como sede no Brasil e um sócio brasileiro com pelo menos 20% do capital social.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Prazo e Análise</h2>
+            <p class="mb-4">Os pedidos serão analisados pela Secretaria de Prêmios e Apostas (SPA) até 31 de dezembro de 2024. A aprovação pode levar até cinco meses e incluir verificações detalhadas de conformidade legal e técnica.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Impacto no Mercado</h2>
+            <p class="mb-4">A regulamentação visa aumentar a segurança e a transparência no setor, enquanto o governo busca arrecadar até R$ 3,4 bilhões com taxas de autorização. A medida representa uma mudança importante para o mercado de apostas, prometendo um ambiente mais controlado e seguro.</p>
+        </section>
+`,
+    dataDePublicacao: new Date("08/23/2024"),
+  },
+  {
     id: 990,
     imagem:
       "https://s2-epocanegocios.glbimg.com/AetKjdVKhb_040UhhQpiE8V0XL4=/0x0:1920x991/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e536e40f1baf4c1a8bf1ed12d20577fd/internal_photos/bs/2024/6/u/TAaOlBTyCTqB0mpcnvfQ/optimus-tesla.jpg",

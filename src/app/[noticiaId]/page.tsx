@@ -43,6 +43,7 @@ export default function Noticia({ params }: { params: { noticiaId: string } }) {
             __html: noticia.conteudoNoticia || "",
           }}
         />
+
         <Link href="/">
           <Button className="gap-1 mb-4" variant="default" size="xs">
             <ArrowLeftCircle className="w-5 h-5" />
