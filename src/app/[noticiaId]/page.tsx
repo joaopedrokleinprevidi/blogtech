@@ -33,7 +33,7 @@ export default function Noticia({ params }: { params: { noticiaId: string } }) {
           </div>
         </div>
         {noticia.mostrarDescricaoNaNoticia && (
-          <h2 className="text-xl font-semibold text-gray-700 mb-6">
+          <h2 className="text-xl font-semibold text-gray-600 mb-6">
             {noticia.descricao}
           </h2>
         )}

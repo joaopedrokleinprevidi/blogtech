@@ -134,6 +134,12 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "startups.com.br",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };

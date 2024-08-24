@@ -3,11 +3,17 @@ import "./globals.css";
 import { Footer } from "@/components/footer";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
+import { Poppins } from "next/font/google";
 
 export const metadata = {
   title: "Techformando",
   description: "Um portal de notícias sobre tecnologia.",
 };
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export default function RootLayout({
   children,
@@ -26,7 +32,9 @@ export default function RootLayout({
 
         <meta name="google-adsense-account" content="ca-pub-2883204152245588" />
       </head>
-      <body className="bg-gray-50 flex flex-col justify-between h-screen">
+      <body
+        className={`${poppins.className} bg-gray-50 flex flex-col justify-between h-screen`}
+      >
         <Header />
         {children}
         <Footer />

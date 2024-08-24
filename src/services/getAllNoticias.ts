@@ -13,7 +13,7 @@ export const getAllNoticias: GetAllNoticiasProps[] = [
   {
     id: 987,
     imagem:
-      "https://s2-g1.glbimg.com/9hNaDFyd9LW7IYCTOJeuL3Lkq9I=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/P/w/8ulV0STS2BAZkAY6XF1Q/2023-02-14t212409z-1-lynxmpej1d10r-rtroptp-4-argentina-brazil.jpg",
+      "https://startups.com.br/wp-content/uploads/2024/05/Fabi-2024-05-14T160756.560.jpg",
     titulo:
       "Desenvolvedores não codificarão mais em 2 anos, diz CEO da Amazon Web Services",
     descricao:
