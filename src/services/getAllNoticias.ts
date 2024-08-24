@@ -11,6 +11,49 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 987,
+    imagem:
+      "https://s2-g1.glbimg.com/9hNaDFyd9LW7IYCTOJeuL3Lkq9I=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/P/w/8ulV0STS2BAZkAY6XF1Q/2023-02-14t212409z-1-lynxmpej1d10r-rtroptp-4-argentina-brazil.jpg",
+    titulo:
+      "Desenvolvedores não codificarão mais em 2 anos, diz CEO da Amazon Web Services",
+    descricao:
+      "Matt Garman, CEO da AWS, sugere que, em breve, a codificação tradicional pode não ser a principal tarefa dos desenvolvedores. Entenda como a inteligência artificial está moldando o futuro da programação e o que isso significa para os profissionais da área.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 4,
+    conteudoNoticia: `
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Mudança à Vista para os Desenvolvedores</h2>
+            <p class="mb-4">Matt Garman, CEO da Amazon Web Services (AWS), levantou um ponto de discussão significativo durante um encontro interno recente. Em uma gravação obtida pelo Business Insider, ele afirmou que, nos próximos dois anos, o papel dos desenvolvedores pode mudar drasticamente. Segundo Garman, a codificação, como conhecemos, pode não ser a principal atividade dos desenvolvedores no futuro próximo.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Impacto da Inteligência Artificial</h2>
+            <p class="mb-4">Garman argumenta que a codificação é apenas uma forma de comunicação com computadores. Ele sugere que, em vez de se focar na escrita de código, os desenvolvedores terão que se concentrar mais na inovação e na criação de soluções que atendam às necessidades dos usuários finais. A inteligência artificial (IA) está desempenhando um papel crucial nessa mudança, automatizando muitas das tarefas repetitivas e permitindo que os profissionais se dediquem a aspectos mais criativos e estratégicos do desenvolvimento.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Novo Papel dos Desenvolvedores</h2>
+            <p class="mb-4">De acordo com Garman, essa transformação exigirá que os desenvolvedores se conectem mais estreitamente com as demandas dos clientes e com o produto que está sendo desenvolvido. A capacidade de entender o que os usuários precisam e como criar soluções eficazes será mais valorizada do que a habilidade de codificar linhas de código. A AWS, assim como outras empresas de tecnologia, está investindo em tecnologias emergentes para preparar os desenvolvedores para essas novas demandas.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">A Resposta da AWS e Outras Empresas</h2>
+            <p class="mb-4">A AWS está trabalhando para ajudar seus funcionários a se adaptarem a essas mudanças, oferecendo treinamento e suporte para que possam aproveitar as novas ferramentas de IA. Aisha Johnson, porta-voz da AWS, reforçou que a visão de Garman é sobre criar novas oportunidades para os desenvolvedores, ao invés de substituir a profissão. Empresas como Google e Meta também estão desenvolvendo soluções de IA para acelerar o trabalho de programação e facilitar a vida dos desenvolvedores.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Conclusão</h2>
+            <p class="mb-4">A visão de Garman para o futuro da programação reflete uma mudança em curso na indústria tecnológica. Com a crescente automação e o avanço das ferramentas de IA, os desenvolvedores terão que se adaptar e focar em áreas mais inovadoras e estratégicas. A capacidade de se ajustar a essas novas realidades será crucial para o sucesso no campo da tecnologia.</p>
+        </section>
+
+        <section class="pb-8">
+            <p class="mb-4">Fonte: <a href="https://www.businessinsider.com/aws-ceo-developers-stop-coding-ai-takes-over-2024-8" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Business Insider</a></p>
+        </section>
+    `,
+    dataDePublicacao: new Date("08/23/2024"),
+  },
+
+  {
     id: 988,
     imagem:
       "https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2024/08/20/806x444/1_pessoa_que_usa_a_ferramenta_ai_no_trabalho_1___freepick-28696052.jpg?66c4a4f4c6976",
