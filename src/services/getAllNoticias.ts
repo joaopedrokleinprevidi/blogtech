@@ -11,6 +11,47 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 985,
+    imagem:
+      "https://www.dexerto.com/cdn-image/wp-content/uploads/2024/08/22/Neuralink-counter-strike-2.jpeg?width=3840&quality=60&format=auto",
+    titulo: "Paciente da Neuralink Joga Counter-Strike com o Poder da Mente",
+    descricao:
+      "Descubra como a Neuralink está revolucionando a vida de pessoas com limitações físicas e oferecendo um vislumbre do futuro da tecnologia cerebral. Um paciente tetraplégico controla Counter-Strike apenas com o poder do pensamento, destacando os avanços impressionantes dessa inovação.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 3,
+    conteudoNoticia: `
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Tecnologia Revolucionária da Neuralink</h2>
+            <p class="mb-4">A Neuralink, a startup visionária liderada por Elon Musk, está desbravando novos horizontes com sua tecnologia de interface cérebro-computador. Recentemente, Alex, um paciente tetraplégico, tornou-se o segundo indivíduo a experimentar um avanço notável: jogar Counter-Strike: Global Offensive usando apenas o pensamento, graças ao chip cerebral implantado pela Neuralink.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">A Revolução na Experiência de Jogo</h2>
+            <p class="mb-4">Antes do implante, Alex dependia do Quadstick, um dispositivo controlado pela boca, para se envolver em jogos de tiro em primeira pessoa (FPS). Com a nova tecnologia do Neuralink, Alex passou por um período de adaptação e, em pouco tempo, conseguiu controlar o cursor do computador com a mente, algo que antes parecia impossível.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Liberdade e Precisão com o Novo Chip</h2>
+            <p class="mb-4">A grande inovação não está apenas no jogo em si, mas na liberdade que o chip proporciona. Alex agora pode movimentar-se e mirar simultaneamente, uma capacidade que o Quadstick não permitia. “É incrível como posso simplesmente pensar em onde olhar e o cursor vai para lá. Não há mais a necessidade de controlar fisicamente o dispositivo. É uma sensação de liberdade total”, compartilhou Alex sobre sua experiência.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Avanços da Neuralink e Impacto Futuro</h2>
+            <p class="mb-4">O impacto da Neuralink vai além dos jogos. A empresa tem demonstrado como seu chip cerebral está ampliando as possibilidades para pessoas com limitações físicas severas. Em um vídeo divulgado pela empresa, Alex realiza movimentos ágeis e elimina adversários em Counter-Strike, mostrando a eficácia da tecnologia em criar uma interface mais intuitiva e fluida.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Promessa de Transformação</h2>
+            <p class="mb-4">A Neuralink também mencionou o sucesso de Noland Arbaugh, o primeiro paciente a receber o implante. Arbaugh já utilizava o chip para jogar Mario Kart e Xadrez, demonstrando a versatilidade e o potencial da tecnologia. Esses avanços evidenciam uma promessa significativa: a tecnologia Neuralink não só está transformando a forma como interagimos com o mundo digital, mas também oferecendo novas esperanças de autonomia para aqueles com severas limitações físicas.</p>
+        </section>
+
+        <section class="pb-8">
+            <p class="mb-4">Fonte: <a href="https://www.adrenaline.com.br/games/paciente-neuralink-joga-counter-strike/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Adrenaline</a></p>
+        </section>
+    `,
+    dataDePublicacao: new Date("08/26/2024"),
+  },
+  {
     id: 986,
     imagem:
       "https://www.asuris.com.br/upload/blog/900x537xfit-QhEb6JuOjOogFNZSINwpOaKn9bEJbEVq3Y0iCGu1.jpg",
