@@ -140,6 +140,12 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "www.asuris.com.br",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };

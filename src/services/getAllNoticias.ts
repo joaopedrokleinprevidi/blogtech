@@ -11,6 +11,47 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 986,
+    imagem:
+      "https://www.asuris.com.br/upload/blog/900x537xfit-QhEb6JuOjOogFNZSINwpOaKn9bEJbEVq3Y0iCGu1.jpg",
+    titulo: "Brasil Enfrenta Apagão de Profissionais de TI",
+    descricao:
+      "O Brasil enfrenta um iminente apagão de profissionais de TI, com um déficit previsto de 530 mil especialistas até 2025. A crescente demanda por tecnologia, a falta de formação adequada e a disputa com multinacionais estão moldando um cenário desafiador para o setor. Descubra os detalhes dessa crise e as possíveis soluções para reverter a situação.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 4,
+    conteudoNoticia: `
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Desafio da Escassez de Profissionais</h2>
+            <p class="mb-4">O setor de tecnologia da informação no Brasil está à beira de uma crise sem precedentes. Um estudo recente da Google for Startups revela que até 2025, o país pode enfrentar um déficit alarmante de 530 mil profissionais de TI. O crescimento exponencial na demanda por serviços tecnológicos está pressionando ainda mais um mercado já saturado. Empresas de diversos setores estão se esforçando para se digitalizar, gerando uma necessidade crítica de especialistas em desenvolvimento de software, segurança da informação e análise de dados.</p>
+        </section>
+  
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Sistema Educacional em Fracasso</h2>
+            <p class="mb-4">O sistema educacional brasileiro não está conseguindo acompanhar a demanda crescente. A Associação Brasileira das Empresas de Tecnologia da Informação e Comunicação (Brasscom) estima que, de 2021 a 2025, o Brasil formará apenas 53 mil profissionais de TI anualmente. Esse número é insuficiente para suprir a demanda do mercado, especialmente em locais como o Distrito Federal, onde a necessidade de proteger dados governamentais críticos intensifica a pressão sobre a formação de novos especialistas.</p>
+        </section>
+  
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">A Corrida por Talentos e a "Juniorização"</h2>
+            <p class="mb-4">A escassez de profissionais qualificados está gerando uma competição acirrada entre empresas, incluindo multinacionais que oferecem salários mais altos em dólares e euros. Isso resulta em uma "juniorização" do mercado, onde profissionais com menos experiência estão assumindo papéis avançados. A falta de profissionais seniores prejudica a transferência de conhecimento e a formação de novos especialistas, criando um ciclo vicioso que exacerba o déficit.</p>
+        </section>
+  
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Soluções e Estratégias para o Futuro</h2>
+            <p class="mb-4">Para enfrentar essa crise, é necessário um conjunto de medidas estratégicas. Especialistas como Ciro Jacob sugerem a criação de um plano de desenvolvimento de carreira claro, com metas bem definidas e pacotes de benefícios atraentes. Além disso, a formalização do mercado de trabalho, com a contratação mais frequente pelo regime CLT, pode melhorar a atração e retenção de talentos. Investir na qualificação contínua e na participação ativa em comunidades de tecnologia também é crucial para manter os profissionais atualizados e engajados.</p>
+        </section>
+  
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Impactos da Inteligência Artificial e a Necessidade de Qualificação Contínua</h2>
+            <p class="mb-4">O avanço da inteligência artificial (IA) está moldando o futuro do mercado de TI. A Organização Internacional do Trabalho (OIT) estima que até 37 milhões de brasileiros podem ser afetados pela IA. As áreas de segurança da informação e inteligência artificial são particularmente vulneráveis. Profissionais devem buscar constantemente atualizações e certificações para se manterem competitivos e preparados para os desafios futuros.</p>
+        </section>
+  
+        <section class="pb-8">
+            <p class="mb-4">Fonte: <a href="https://www.correiobraziliense.com.br/economia/2024/08/6927263-brasil-enfrenta-apagao-de-profissionais-de-ti.html#google_vignette" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Correio Braziliense</a></p>
+        </section>
+    `,
+    dataDePublicacao: new Date("08/26/2024"),
+  },
+  {
     id: 987,
     imagem:
       "https://startups.com.br/wp-content/uploads/2024/05/Fabi-2024-05-14T160756.560.jpg",
