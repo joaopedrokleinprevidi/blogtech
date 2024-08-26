@@ -31,8 +31,11 @@ export const getAllNoticias: GetAllNoticiasProps[] = [
         </section>
 
         <section class="pb-8">
-            <h2 class="text-2xl font-semibold mb-4">Liberdade e Precisão com o Novo Chip</h2>
+            <h2 class="text-2xl font-semibold mb-4">Liberdade com o Novo Chip: a Experiência de Alex</h2>
             <p class="mb-4">A grande inovação não está apenas no jogo em si, mas na liberdade que o chip proporciona. Alex agora pode movimentar-se e mirar simultaneamente, uma capacidade que o Quadstick não permitia. “É incrível como posso simplesmente pensar em onde olhar e o cursor vai para lá. Não há mais a necessidade de controlar fisicamente o dispositivo. É uma sensação de liberdade total”, compartilhou Alex sobre sua experiência.</p>
+            <div class="mb-4">
+                <iframe class="w-full h-80" src="https://www.youtube.com/embed/X7OpjB_8sHQ" title="Vídeo do Paciente Neuralink Jogando Counter-Strike" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </section>
 
         <section class="pb-8">
