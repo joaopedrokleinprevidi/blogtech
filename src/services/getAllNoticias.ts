@@ -11,6 +11,49 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 984,
+    imagem:
+      "https://www.cisoadvisor.com.br/wp-content/uploads/2024/08/telegram-pavel-durov-dall-e-creation.webp",
+    titulo:
+      "CEO do Telegram é preso na França: O Conturbado Mundo de Pavel Durov",
+    descricao:
+      "Pavel Durov, fundador do Telegram, foi preso na França e enfrenta graves acusações, incluindo tráfico e fraudes. Entenda a situação crítica do CEO e o impacto nas operações do Telegram.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 5,
+    conteudoNoticia: `
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">A Detenção e as Acusações</h2>
+            <p class="mb-4">Pavel Durov, o bilionário de 39 anos que revolucionou a comunicação digital com o Telegram, foi preso em um momento delicado de sua carreira. O motivo? Acusações graves de envolvimento com atividades ilícitas na plataforma, que incluem tráfico de drogas, crimes contra crianças e fraudes. A Justiça francesa não poupou esforços e emitiu um mandado de busca que culminou na prisão de Durov assim que ele chegou ao território francês.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Telegram e sua Filosofia de Liberdade Absoluta</h2>
+            <p class="mb-4">O Telegram se destaca no universo das big techs por sua abordagem radical em relação à liberdade de expressão. David Nemer, professor de Estudos de Mídia na Universidade da Virgínia, explica que Durov promove uma plataforma onde qualquer forma de intervenção é vista como censura. "Ao atrair uma audiência que quer promover discursos frequentemente criminalizados, o Telegram se torna um espaço na internet aberta muito próximo da dark web", afirma Nemer. A ausência de moderação e as ferramentas de anonimato tornam a plataforma atraente para aqueles que buscam escapar da vigilância.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Características que Atraem Controvérsias</h2>
+            <p class="mb-4">Uma das principais características do Telegram que levanta preocupações são suas funções de autodestruição de mensagens e anonimato dos usuários. Esses recursos facilitam a troca de informações sensíveis e podem ser explorados para atividades ilegais, como tráfico de drogas e pedofilia. Diferente de aplicativos como o WhatsApp, onde números de telefone são visíveis, o Telegram permite uma interação mais anônima, o que intensifica o debate sobre suas implicações legais e éticas.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Histórico de Conflitos com Autoridades</h2>
+            <p class="mb-4">O Telegram não é estranho a conflitos com autoridades ao redor do mundo. No Brasil, por exemplo, o aplicativo enfrentou um bloqueio temporário em março de 2022, quando foi acusado de desrespeitar decisões judiciais e não colaborar com a legislação local. A empresa conseguiu evitar o bloqueio ao implementar medidas para atender às exigências do STF, incluindo a remoção de publicações e o bloqueio de canais específicos. Este episódio ilustra a tensão constante entre a plataforma e os órgãos reguladores.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Futuro de Durov e do Telegram</h2>
+            <p class="mb-4">Com Pavel Durov sob custódia e uma série de acusações pesadas à sua porta, o futuro do Telegram está incerto. A plataforma pode enfrentar novas regulamentações e desafios legais que podem alterar sua dinâmica e impacto global. A prisão de Durov marca um ponto crítico na história da empresa, que sempre defendeu a liberdade de expressão sem amarras.</p>
+        </section>
+
+        <section class="pb-8">
+            <p class="mb-4">Fonte: <a href="https://oglobo.globo.com/mundo/noticia/2024/08/24/fundador-do-telegram-pavel-durov-e-preso-na-franca.ghtml" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">O Globo</a></p>
+        </section>
+    `,
+    dataDePublicacao: new Date("08/28/2024"),
+  },
+
+  {
     id: 985,
     imagem:
       "https://www.dexerto.com/cdn-image/wp-content/uploads/2024/08/22/Neuralink-counter-strike-2.jpeg?width=3840&quality=60&format=auto",

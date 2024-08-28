@@ -152,6 +152,12 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "www.cisoadvisor.com.br",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };
