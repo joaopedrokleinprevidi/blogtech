@@ -11,6 +11,48 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 983,
+    imagem:
+      "https://img.odcdn.com.br/wp-content/uploads/2024/08/X-STF-scaled.jpg",
+    titulo: "O Fim do X no Brasil? Alexandre de Moraes Enfrenta Elon Musk",
+    descricao:
+      "O ministro Alexandre de Moraes e Elon Musk estão em rota de colisão, colocando o futuro da rede social X no Brasil em risco. Entenda os detalhes dessa batalha judicial e o que isso pode significar para milhões de usuários.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 4,
+    conteudoNoticia: `
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">A Batalha de Gigantes: Justiça Brasileira vs. Elon Musk</h2>
+            <p class="mb-4">O embate entre o Supremo Tribunal Federal (STF) e Elon Musk, dono da rede social X (anteriormente conhecida como Twitter), atingiu um novo patamar. Alexandre de Moraes, ministro do STF, emitiu uma intimação exigindo que Musk nomeie um novo representante legal para o X no Brasil em um prazo de 24 horas. Caso contrário, a plataforma corre o risco de ser suspensa indefinidamente no país. Essa decisão surge após o fechamento do escritório do X no Brasil, uma medida que Musk justificou como necessária para proteger sua equipe de ameaças legais.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Tensão Escalada e Risco de Suspensão</h2>
+            <p class="mb-4">A decisão de Moraes não é um acontecimento isolado, mas parte de uma série de confrontos entre o empresário e o tribunal. Desde que Musk adquiriu o X, a relação com o STF tem sido turbulenta, marcada por disputas legais e acusações de censura. O que antes era uma rede social amplamente acessível agora enfrenta a ameaça de suspensão, caso as ordens judiciais brasileiras não sejam cumpridas. Essa possível suspensão levanta questões sobre o impacto na comunicação digital de milhões de brasileiros que dependem da plataforma para se conectar.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Elon Musk e as Acusações do STF</h2>
+            <p class="mb-4">Musk está sendo investigado por supostas ações que incluem obstrução de justiça, organização criminosa e incitação ao crime. O inquérito liderado por Moraes examina a resistência do empresário em fornecer informações cruciais para investigações que envolvem a atuação de milícias digitais. A recusa de Musk em colaborar, combinada com o encerramento das operações físicas do X no Brasil, intensificou ainda mais o conflito. A resposta do STF foi rápida e decisiva, com a intimação divulgada publicamente na própria rede social, simbolizando a gravidade da situação.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">A Reação de Musk: Censura ou Proteção?</h2>
+            <p class="mb-4">Para Elon Musk, as ações do STF são vistas como formas de censura. O empresário afirmou que a decisão de encerrar as operações do X no Brasil foi motivada por preocupações com a segurança de sua equipe, que teria sido alvo de ameaças de prisão e multas. A disputa se acirrou ainda mais quando Musk desafiou publicamente as decisões de Moraes, sugerindo reativar contas que haviam sido suspensas pela justiça brasileira. Essas ações colocaram Musk no centro de um inquérito que visa investigar possíveis crimes contra a ordem pública.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Futuro do X no Brasil: Um Capítulo Ainda em Aberto</h2>
+            <p class="mb-4">Com o prazo dado por Alexandre de Moraes se esgotando, o futuro do X no Brasil permanece incerto. A suspensão da rede social, caso se concretize, representará um golpe significativo tanto para a empresa quanto para seus milhões de usuários no país. À medida que a batalha judicial entre Musk e o STF se desenrola, o que está em jogo é mais do que apenas uma disputa legal – é o acesso à informação e à comunicação para uma nação inteira.</p>
+        </section>
+
+        <section class="pb-8">
+            <p class="mb-4">Fonte: <a href="https://www.purepeople.com.br/noticia/twitter-vai-acabar-ministro-do-stf-alexandre-de-moraes-intima-elon-musk-e-ameaca-tirar-plataforma-do-ar_a395761/1" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Purepeople</a></p>
+        </section>
+    `,
+    dataDePublicacao: new Date("08/28/2024"),
+  },
+
+  {
     id: 984,
     imagem:
       "https://www.cisoadvisor.com.br/wp-content/uploads/2024/08/telegram-pavel-durov-dall-e-creation.webp",

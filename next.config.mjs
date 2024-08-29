@@ -158,6 +158,12 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "img.odcdn.com.br",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };
