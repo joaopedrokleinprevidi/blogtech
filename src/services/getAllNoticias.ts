@@ -11,6 +11,43 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 982,
+    imagem:
+      "https://jornalcapitalfederal.com.br/wp-content/uploads/2024/04/charge_Alexandre-de-moraes-x-Elon-Mosck-scaled.jpg",
+    titulo: "Moraes atropela princípios jurídicos para tentar frear Musk",
+    descricao:
+      "O Ministro Alexandre de Moraes toma decisões controversas contra a rede social X e a Starlink, ampliando a tensão com Elon Musk. Entenda os desdobramentos dessa situação.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 3,
+    conteudoNoticia: `
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">A Tensão entre Alexandre de Moraes e a Rede Social X</h2>
+            <p class="mb-4">O Ministro Alexandre de Moraes, do Supremo Tribunal Federal, intensificou suas ações contra a rede social X, de propriedade de Elon Musk. Após a rede se recusar a cumprir ordens judiciais para bloquear perfis acusados de discurso de ódio, Moraes ameaçou prender o representante da empresa no Brasil, o que levou o X a encerrar suas operações no país.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">A Expansão da Disputa para a Starlink</h2>
+            <p class="mb-4">Surpreendentemente, Moraes estendeu sua ação à Starlink, outra empresa de Musk que fornece internet via satélite para milhares de brasileiros. Embora não tenha ligação direta com a rede social X, a Starlink viu suas contas no Brasil serem congeladas e suas transações financeiras proibidas por ordem do ministro. A empresa, no entanto, afirmou que continuará prestando seus serviços e criticou a decisão como inconstitucional.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Que Pode Acontecer com o X no Brasil?</h2>
+            <p class="mb-4">A rede social X ainda não cumpriu a exigência de indicar um representante legal no país, deixando em aberto a possibilidade de ser bloqueada. Caso essa medida seja tomada, passará por procedimentos que envolvem a Agência Nacional de Telecomunicações (Anatel) e as operadoras de internet.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Reflexos e Reações</h2>
+            <p class="mb-4">A Starlink, em comunicado aos seus clientes, manifestou preocupação com a decisão e reafirmou seu compromisso com os usuários brasileiros. Enquanto isso, a situação da rede social X permanece incerta, com possíveis desdobramentos nos próximos dias.</p>
+            <p class="mb-4">Confira agora o comunicado da rede social X: <a href="https://x.com/elonmusk/status/1829308905177956551" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">https://x.com/elonmusk/status/1829308905177956551</a></p>
+            </section>
+
+        <section class="pb-8">
+            <p class="mb-4">Fonte: <a href="https://thenewscc.beehiiv.com/p/30-08-2024" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">The News</a></p>
+        </section>
+    `,
+    dataDePublicacao: new Date("08/30/2024"),
+  },
+  {
     id: 983,
     imagem:
       "https://img.odcdn.com.br/wp-content/uploads/2024/08/X-STF-scaled.jpg",

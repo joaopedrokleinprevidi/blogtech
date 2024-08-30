@@ -164,6 +164,12 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "jornalcapitalfederal.com.br",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };
