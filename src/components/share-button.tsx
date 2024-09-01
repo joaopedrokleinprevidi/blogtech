@@ -19,7 +19,7 @@ export function ShareButton({
           url: window.location.href,
         });
       } catch (err) {
-        return;
+        toast.error("O artigo não foi compartilhado.");
       }
     } else {
       toast.error(
