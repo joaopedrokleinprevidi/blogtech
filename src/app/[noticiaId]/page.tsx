@@ -2,6 +2,9 @@ import { Button } from "@/components/ui/button";
 import { getNoticia } from "@/services/getNoticia";
 import Link from "next/link";
 import { ArrowLeftCircle } from "lucide-react";
+import { ShareButton } from "@/components/share-button";
+import Head from "next/head";
+import { HeadArticleSEO } from "@/components/head-seo-meta-tags";
 
 export default function Noticia({ params }: { params: { noticiaId: string } }) {
   const noticia = getNoticia(parseInt(params.noticiaId));
@@ -12,6 +15,7 @@ export default function Noticia({ params }: { params: { noticiaId: string } }) {
 
   return (
     <>
+      <HeadArticleSEO noticia={noticia} />
       <div className="max-w-3xl mx-auto p-6">
         <Link href="/">
           <Button className="gap-1 mb-4" variant="default" size="xs">
@@ -44,12 +48,19 @@ export default function Noticia({ params }: { params: { noticiaId: string } }) {
           }}
         />
 
-        <Link href="/">
-          <Button className="gap-1 mb-4" variant="default" size="xs">
-            <ArrowLeftCircle className="w-5 h-5" />
-            <span> Voltar </span>
-          </Button>
-        </Link>
+        <div className="flex items-center justify-between">
+          <Link href="/">
+            <Button
+              className="gap-1 mb-4 flex items-center"
+              variant="default"
+              size="xs"
+            >
+              <ArrowLeftCircle className="w-5 h-5" />
+              <span> Voltar </span>
+            </Button>
+          </Link>
+          <ShareButton title={noticia.titulo} description={noticia.descricao} />
+        </div>
       </div>
     </>
   );

@@ -4,6 +4,7 @@ import { Footer } from "@/components/footer";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import { Poppins } from "next/font/google";
+import { Toaster } from "@/components/ui/sonner";
 
 export const metadata = {
   title: "Techformando",
@@ -31,6 +32,7 @@ export default function RootLayout({
         <script src="https://jsc.mgid.com/site/978806.js" async></script>
 
         <meta name="google-adsense-account" content="ca-pub-2883204152245588" />
+        <meta property="og:site_name" content="Techformando" />
       </head>
       <body
         className={`${poppins.className} bg-gray-50 flex flex-col justify-between h-screen`}
@@ -40,6 +42,12 @@ export default function RootLayout({
         <Footer />
         <SpeedInsights />
         <Analytics />
+        <Toaster
+          richColors
+          duration={3000}
+          closeButton={true}
+          position={"bottom-right"}
+        />
       </body>
     </html>
   );
