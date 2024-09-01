@@ -1,6 +1,5 @@
 import { BookOpenCheck } from "lucide-react";
 import Link from "next/link";
-import { FaSquareXTwitter } from "react-icons/fa6";
 
 export function Header() {
   return (
