@@ -19,7 +19,7 @@ export function ShareButton({
           url: window.location.href,
         });
       } catch (err) {
-        toast.error("Ocorreu um erro ao compartilhar o conteúdo.");
+        return;
       }
     } else {
       toast.error(
