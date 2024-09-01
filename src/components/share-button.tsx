@@ -12,15 +12,11 @@ export function ShareButton({
 }) {
   async function handleShare() {
     if (navigator.share) {
-      try {
-        await navigator.share({
-          title: title,
-          text: description,
-          url: window.location.href,
-        });
-      } catch (err) {
-        toast.error("O artigo não foi compartilhado.");
-      }
+      await navigator.share({
+        title: title,
+        text: description,
+        url: window.location.href,
+      });
     } else {
       toast.error(
         "O navegador atual não possui a compatibilidade necessária para usar este recurso."
