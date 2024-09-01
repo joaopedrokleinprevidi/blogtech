@@ -38,7 +38,6 @@ export const getAllNoticias: GetAllNoticiasProps[] = [
         <section class="pb-8">
             <h2 class="text-2xl font-semibold mb-4">Reflexos e Reações</h2>
             <p class="mb-4">A Starlink, em comunicado aos seus clientes, manifestou preocupação com a decisão e reafirmou seu compromisso com os usuários brasileiros. Enquanto isso, a situação da rede social X permanece incerta, com possíveis desdobramentos nos próximos dias.</p>
-            <p class="mb-4">Confira agora o comunicado da rede social X: <a href="https://x.com/elonmusk/status/1829308905177956551" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">https://x.com/elonmusk/status/1829308905177956551</a></p>
             </section>
 
         <section class="pb-8">

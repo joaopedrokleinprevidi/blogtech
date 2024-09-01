@@ -42,7 +42,6 @@ export default function Noticia({ params }: { params: { noticiaId: string } }) {
           </h2>
         )}
         <article
-          className="prose lg:prose-xl text-justify sm:text-left"
           dangerouslySetInnerHTML={{
             __html: noticia.conteudoNoticia || "",
           }}
