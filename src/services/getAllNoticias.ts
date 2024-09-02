@@ -11,6 +11,44 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 981,
+    imagem:
+      "https://media.gazetadopovo.com.br/2023/03/24143630/bancoImagemFotoAudiencia_AP_282057-960x540.jpg",
+    titulo:
+      "Brasil Sob Alerta: Como Decisões Judiciais Abalam a Confiança dos Investidores",
+    descricao:
+      "Decisões judiciais no Brasil envolvendo Elon Musk e suas empresas estão criando um clima de incerteza que pode afastar investidores. Entenda os impactos dessa crise e as possíveis consequências para o futuro econômico do país.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 4,
+    conteudoNoticia: `
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">A Decisão do STF e Seus Efeitos</h2>
+            <p class="mb-4">A crise teve início com o Supremo Tribunal Federal (STF) determinando o bloqueio do X no Brasil após Elon Musk se recusar a nomear um representante legal para a rede social. Essa medida foi uma resposta direta à falta de conformidade da empresa com as leis brasileiras. Em seguida, as contas da Starlink, outra empresa de Musk, foram injustamente bloqueadas, apesar de não haver ligação direta entre a Starlink e o X além do fato de ambas serem controladas por Musk. A Starlink anunciou que continuaria a fornecer seus serviços de forma gratuita, enquanto buscava reverter a decisão judicial, ressaltando a importância de manter o serviço ativo, especialmente em áreas remotas que dependem de sua conectividade.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">A Crise de Confiança</h2>
+            <p class="mb-4">Elon Musk, conhecido por sua postura desafiadora, expressou sua preocupação com a situação no Brasil. Suas ações e comentários sugerem que ele vê o país como um ambiente arriscado para investimentos. Isso é particularmente relevante para investidores, que buscam estabilidade e previsibilidade em qualquer mercado onde decidem alocar seus recursos.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Alerta dos Investidores</h2>
+            <p class="mb-4">Bill Ackman, um bilionário e renomado investidor de Wall Street, foi mais direto em suas preocupações. Ele alertou que o fechamento do X e o congelamento das contas da Starlink são sinais claros de um ambiente hostil para os negócios. Ackman comparou a situação brasileira à da China, onde ações governamentais arbitrárias levaram à fuga de capitais e ao colapso do mercado. Ele teme que o Brasil siga o mesmo caminho, afastando investidores e comprometendo o futuro econômico do país.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">A Realidade Econômica Brasileira</h2>
+            <p class="mb-4">O cenário de incerteza é agravado pela realidade econômica do Brasil. Com uma dívida pública que já ultrapassa 85% do Produto Interno Bruto (PIB), o país é agora o mais endividado da América Latina, superando até mesmo a Argentina. Além disso, o Brasil se encontra entre os três países mais endividados do mundo, ao lado da Ucrânia, segundo o Fundo Monetário Internacional (FMI). Esses fatores econômicos, combinados com a instabilidade jurídica, tornam o Brasil um mercado menos atrativo para investidores globais.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Futuro dos Investimentos no Brasil</h2>
+            <p class="mb-4">O Brasil está em uma encruzilhada. Se continuar a ser visto como um país onde as decisões judiciais podem desestabilizar empresas globais, poderá perder sua atratividade como destino de investimentos. Para evitar esse cenário, o país precisa restaurar a confiança dos investidores, mostrando que é um ambiente seguro e estável para negócios. A forma como essa crise será resolvida poderá definir o futuro do Brasil no cenário econômico global.</p>
+        </section>
+    `,
+    dataDePublicacao: new Date("09/02/2024"),
+  },
+  {
     id: 982,
     imagem:
       "https://jornalcapitalfederal.com.br/wp-content/uploads/2024/04/charge_Alexandre-de-moraes-x-Elon-Mosck-scaled.jpg",
