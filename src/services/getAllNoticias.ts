@@ -11,6 +11,48 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 980,
+    imagem:
+      "https://s2-oglobo.glbimg.com/6jYC5YzK3NUa7kPUzrTf-aGMOPM=/0x0:8191x5464/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/j/V/X0XjfdTDCJTMMTrCiAbA/google-bloomberg-16-fevereiro.jpg",
+    titulo:
+      "Google desenvolve IA que pode detectar doenças pelo som da sua tosse",
+    descricao:
+      "Com a nova tecnologia HeAR, a Google está revolucionando o diagnóstico de doenças respiratórias, como a tuberculose, usando apenas o som captado pelo seu smartphone.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 4,
+    conteudoNoticia: `
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Google e a Nova Fronteira dos Diagnósticos de Saúde</h2>
+            <p class="mb-4">A Google está à frente de uma inovação que promete transformar o futuro dos diagnósticos médicos. Imagine ser capaz de detectar doenças respiratórias, como a tuberculose, apenas com o som da sua tosse, captado pelo microfone do seu smartphone. Esse é o objetivo da tecnologia Health Acoustic Representations (HeAR), desenvolvida em colaboração com a startup indiana Salcit Technologies.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Como Funciona a Tecnologia HeAR</h2>
+            <p class="mb-4">HeAR é um modelo de inteligência artificial bioacústico treinado para reconhecer padrões em sons específicos, como tosse, espirros e fungadas. Com uma base de dados impressionante, composta por 300 milhões de áudios, sendo 100 milhões apenas de sons de tosse, o sistema é capaz de identificar sinais de doenças que, muitas vezes, passam despercebidos em diagnósticos tradicionais.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">A Revolução no Diagnóstico de Tuberculose</h2>
+            <p class="mb-4">A tuberculose é uma das doenças mais mortais do mundo, com milhões de casos não reportados anualmente. A parceria entre a Google e a Salcit Technologies busca reduzir esse número alarmante, utilizando o modelo HeAR junto ao produto Swaasa, que já analisa a saúde pulmonar com base em sons de tosse. Essa tecnologia pode ser um divisor de águas, especialmente em comunidades com acesso limitado a equipamentos médicos avançados.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Potencial das Biomarcadores Acústicos</h2>
+            <p class="mb-4">De acordo com Sujay Kakarmath, gerente de produto do Google Research, cada caso não diagnosticado de tuberculose é uma tragédia. A HeAR não só traz esperança para o diagnóstico precoce de TB, mas também abre portas para a identificação de outras doenças, desde cânceres até condições crônicas, usando biomarcadores acústicos. A detecção precoce pode significar a diferença entre vida e morte para muitos pacientes.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Futuro dos Diagnósticos Médicos com IA</h2>
+            <p class="mb-4">Além da tuberculose, a aplicação de IA no diagnóstico de doenças já demonstrou avanços promissores em várias áreas da medicina. Universidades e centros de pesquisa ao redor do mundo estão explorando como essa tecnologia pode ser usada para identificar precocemente uma ampla gama de condições, desde o câncer até o mal de Parkinson. O impacto potencial dessa tecnologia na saúde global é incalculável, e o trabalho da Google com a HeAR está apenas começando a revelar esse futuro promissor.</p>
+        </section>
+
+        <section class="pb-8">
+            <p class="mb-4">Fonte: <a href="https://qz.com/google-hear-ai-model-development-sickness-tuberculosis-1851636663" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Quartz</a></p>
+        </section>
+    `,
+    dataDePublicacao: new Date("09/03/2024"),
+  },
+  {
     id: 981,
     imagem:
       "https://media.gazetadopovo.com.br/2023/03/24143630/bancoImagemFotoAudiencia_AP_282057-960x540.jpg",
