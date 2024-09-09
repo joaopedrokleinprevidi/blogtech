@@ -182,6 +182,12 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "pplware.sapo.pt",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };

@@ -11,6 +11,42 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 979,
+    imagem:
+      "https://pplware.sapo.pt/wp-content/uploads/2018/12/chrome-sensorstechforum.png",
+    titulo: "Google paga até 500 mil dólares por descobrir falhas no Chrome",
+    descricao:
+      "O Google aumentou as recompensas para quem encontrar falhas de segurança no Chrome, oferecendo até meio milhão de dólares. Saiba como essa oportunidade pode render uma verdadeira fortuna aos caçadores de bugs.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 3,
+    conteudoNoticia: `
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Google oferece grandes recompensas por falhas no Chrome</h2>
+            <p class="mb-4">O Google está elevando o nível de seu programa de recompensas, <strong>Chrome Vulnerability Rewards Program</strong> para quem encontrar vulnerabilidades no Chrome, um dos navegadores mais usados do mundo. Agora, as premiações podem chegar a <strong>500 mil dólares</strong> para quem descobrir falhas críticas que comprometam a segurança dos usuários. Esse aumento reflete a importância que a empresa dá à segurança digital, além de ser uma forma de incentivar especialistas a buscar novas vulnerabilidades.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Meio milhão de dólares em jogo</h2>
+            <p class="mb-4">A maior recompensa disponível é de <strong>500 mil dólares</strong> para quem conseguir identificar e relatar um problema grave de segurança, como uma falha que permita o controle do sistema de forma remota. Mesmo falhas menores, mas com alto impacto, podem render prêmios generosos, e o Google está especialmente focado em bugs que possam comprometer a memória do sistema.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Tecnologia MiraclePtr e prêmios especiais</h2>
+            <p class="mb-4">O Google também está oferecendo <strong>250 mil dólares</strong> para quem conseguir contornar o sistema de proteção <strong>MiraclePtr</strong>, uma tecnologia criada para evitar certos tipos de falhas. Essa proteção, que já resolve muitos problemas no navegador, é uma barreira difícil de ser quebrada, e quem conseguir superá-la será generosamente recompensado.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Uma oportunidade de ouro para especialistas</h2>
+            <p class="mb-4">Com as novas recompensas, o Google espera atrair os melhores pesquisadores de segurança do mundo. Além de proteger milhões de usuários, quem aceitar esse desafio pode levar para casa uma verdadeira fortuna. Se você é especialista em segurança digital, agora é o momento de se destacar e, quem sabe, ganhar até <strong>meio milhão de dólares</strong>.</p>
+        </section>
+
+        <section class="pb-8">
+            <p class="mb-4">Fonte: <a href="https://www.theregister.com/2024/08/29/google_chrome_vuln_rewards/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">The Register</a></p>
+        </section>
+    `,
+    dataDePublicacao: new Date("09/09/2024"),
+  },
+  {
     id: 980,
     imagem:
       "https://s2-oglobo.glbimg.com/6jYC5YzK3NUa7kPUzrTf-aGMOPM=/0x0:8191x5464/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/j/V/X0XjfdTDCJTMMTrCiAbA/google-bloomberg-16-fevereiro.jpg",
