@@ -194,6 +194,12 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "www.criptofacil.com",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };

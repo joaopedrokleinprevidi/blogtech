@@ -11,6 +11,48 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 977,
+    imagem:
+      "https://www.criptofacil.com/wp-content/uploads/2022/05/brasileiros-negociam-4-bilhoes-em-bitcoin-em-abril-queda-de-4-em-relacao-a-marco.jpg",
+    titulo: "Brasil entre os Maiores no Cenário Global de Criptomoedas",
+    descricao:
+      "O Brasil se destaca no ranking global de adoção de criptomoedas, figurando no top 10 mundial e liderando na América Latina. O estudo revela o crescimento surpreendente desses ativos, impulsionado por países emergentes e o avanço de serviços como DeFi.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 4,
+    conteudoNoticia: `
+      <section class="pb-8">
+        <h2 class="text-2xl font-semibold mb-4">Brasil no Top 10 Global de Criptomoedas: Uma Nova Era Financeira</h2>
+        <p class="mb-4">O mais recente relatório Global Crypto Adoption Index, conduzido pela plataforma Chainalysis, destaca que o Brasil está entre os 10 maiores mercados de adoção de criptomoedas do mundo, consolidando-se como o líder na América Latina. O país está na décima posição, à frente de nações como Venezuela, México e Argentina, refletindo o crescimento contínuo do interesse por esses ativos no país.</p>
+      </section>
+  
+      <section class="pb-8">
+        <h2 class="text-2xl font-semibold mb-4">Ascensão dos Mercados Emergentes</h2>
+        <p class="mb-4">A liderança no ranking global continua com a Índia, que ocupa o primeiro lugar como o maior mercado de criptomoedas do mundo. A atividade em países da Ásia, como Indonésia e Filipinas, é alimentada pela forte presença de exchanges de criptomoedas locais e o uso crescente de serviços de DeFi (Finanças Descentralizadas). Entre julho de 2023 e junho de 2024, essas regiões movimentaram mais de US$ 750 bilhões em ativos digitais, representando 16,6% do total global.</p>
+      </section>
+  
+      <section class="pb-8">
+        <h2 class="text-2xl font-semibold mb-4">O Papel da América Latina e o Brasil</h2>
+        <p class="mb-4">No cenário latino-americano, o Brasil é o país com a maior adoção, seguido por Venezuela, México e Argentina. Esses mercados emergentes têm demonstrado um crescente interesse em criptomoedas, especialmente em períodos de instabilidade econômica, onde as stablecoins, por exemplo, se tornaram um refúgio para muitos investidores locais.</p>
+        <p class="mb-4">Além disso, o Brasil se destaca pela diversificação no uso das criptomoedas, com uma forte participação em transações de varejo e também em transferências de tamanho institucional, alavancadas por grandes empresas e fundos de investimento.</p>
+      </section>
+  
+      <section class="pb-8">
+        <h2 class="text-2xl font-semibold mb-4">Adoção Crescente e Impulso do DeFi</h2>
+        <p class="mb-4">Uma das tendências mais marcantes no relatório é o aumento significativo da atividade em DeFi. Plataformas descentralizadas têm atraído usuários em diversas regiões, com destaque para a América Latina, África Subsaariana e Europa Oriental. Esse aumento demonstra que a tecnologia blockchain está se expandindo para além dos mercados tradicionais, ganhando terreno em economias emergentes.</p>
+      </section>
+  
+      <section class="pb-8">
+        <h2 class="text-2xl font-semibold mb-4">O Futuro das Criptomoedas no Brasil</h2>
+        <p class="mb-4">Com o cenário regulatório global em constante evolução e o interesse crescente de investidores, o Brasil está bem posicionado para se consolidar como um dos principais players no mercado global de criptomoedas. A diversificação das aplicações, desde o uso cotidiano de stablecoins até o avanço do DeFi, sinaliza um futuro promissor para os ativos digitais no país.</p>
+      </section>
+  
+      <section class="pb-8">
+        <p class="mb-4">Fonte: <a href="https://www.chainalysis.com/blog/2024-global-crypto-adoption-index/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Chainalysis</a></p>
+      </section>
+    `,
+    dataDePublicacao: new Date("09/17/2024"),
+  },
+  {
     id: 978,
     imagem:
       "https://www.itu.int/en/ITU-D/Cybersecurity/PublishingImages/Global-Cybersecurity-Index/Header-img/GCIv5-crop-02.jpg",
