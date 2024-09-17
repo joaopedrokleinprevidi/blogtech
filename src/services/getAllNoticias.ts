@@ -11,6 +11,53 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 978,
+    imagem:
+      "https://www.itu.int/en/ITU-D/Cybersecurity/PublishingImages/Global-Cybersecurity-Index/Header-img/GCIv5-crop-02.jpg",
+    titulo: "Brasil consolida liderança em cibersegurança nas Américas",
+    descricao:
+      "O Brasil avança no cenário global de cibersegurança, sendo agora o segundo país mais maduro no setor nas Américas. Descubra as estratégias e medidas que colocaram o país nesta posição de destaque.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 4,
+    conteudoNoticia: `
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Brasil: Referência em Cibersegurança nas Américas</h2>
+            <p class="mb-4">O Brasil alcançou um marco importante na área de segurança cibernética, sendo classificado como o segundo país mais maduro no setor nas Américas, de acordo com a edição 2024 do Índice Global de Segurança Cibernética (GCIv5), publicado pela União Internacional de Telecomunicações (UIT). Este avanço reflete a crescente preocupação do país com a segurança digital e seu compromisso com a Agenda Global de Segurança Cibernética.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">As Ações que Elevam o Brasil no Cenário Mundial</h2>
+            <p class="mb-4">A posição de destaque do Brasil é resultado de um esforço contínuo e estruturado, que envolve a atuação de diversos órgãos e entidades. A Anatel, em parceria com instituições como o Gabinete de Segurança Institucional da Presidência da República (GSI/PR) e o Ministério das Relações Exteriores, liderou a apresentação dos dados brasileiros ao GCI. Entre os principais destaques que colocam o Brasil como referência estão:</p>
+            <ul class="list-disc ml-8">
+                <li>Política Nacional de Cibersegurança (PNCiber)</li>
+                <li>Convenção de Budapeste</li>
+                <li>Programa Hackers do Bem</li>
+                <li>Atos de Certificação da Anatel</li>
+            </ul>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Novo Modelo de Avaliação Global</h2>
+            <p class="mb-4">Uma das mudanças no Índice Global de Segurança Cibernética de 2024 foi a eliminação do tradicional ranking de países. Agora, as nações são agrupadas de acordo com suas capacidades em cibersegurança, e o Brasil foi classificado no Grupo 1, o mais avançado. Isso reflete o reconhecimento de que o país serve como modelo para outras nações no desenvolvimento de uma estrutura robusta de segurança digital.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Cooperação Internacional: A Chave para o Sucesso</h2>
+            <p class="mb-4">O avanço do Brasil no GCI também se deve ao foco em cooperação internacional. O país tem trabalhado ativamente em conjunto com diversas nações e organismos globais para fortalecer suas defesas cibernéticas. Essa postura colaborativa é essencial em um mundo onde as ameaças digitais não conhecem fronteiras.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Um Futuro de Desafios e Oportunidades</h2>
+            <p class="mb-4">Embora o Brasil tenha alcançado um grande avanço, a segurança cibernética é uma área em constante evolução. As iniciativas governamentais, somadas à colaboração com o setor privado e internacional, serão cruciais para que o país mantenha sua posição de destaque e continue a se adaptar às novas ameaças que surgem no cenário digital global.</p>
+        </section>
+
+        <section class="pb-8">
+            <p class="mb-4">Fonte: <a href="https://www.itu.int/en/ITU-D/Cybersecurity/Documents/GCIv5/2401416_1b_Global-Cybersecurity-Index-E.pdf" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">ITU - Global Cybersecurity Index 2024</a></p>
+        </section>
+    `,
+    dataDePublicacao: new Date("09/13/2024"),
+  },
+  {
     id: 979,
     imagem:
       "https://pplware.sapo.pt/wp-content/uploads/2018/12/chrome-sensorstechforum.png",

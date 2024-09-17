@@ -188,6 +188,12 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "www.itu.int",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };

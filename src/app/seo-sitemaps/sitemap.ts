@@ -6,14 +6,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const baseSitemap: MetadataRoute.Sitemap = [
     {
-      url: "https://techformando.vercel.app/",
+      url: "https://www.techformando.com/",
       changeFrequency: "daily",
       priority: 1,
     },
   ];
 
   const noticiasSitemap = noticias.map((noticia: GetAllNoticiasProps) => ({
-    url: `https://techformando.vercel.app/${noticia.id}`,
+    url: `https://www.techformando.com/${noticia.id}`,
     priority: 0.8,
     lastModified: `${new Date(noticia.dataDePublicacao)}`,
   }));
