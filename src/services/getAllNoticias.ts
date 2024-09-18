@@ -11,6 +11,42 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 976,
+    imagem:
+      "https://www.diarioeconomico.co.mz/wp-content/uploads/2024/09/satelite-com-IA_Easy-Resize.com_.jpg",
+    titulo: "Satélites Inteligentes: A Nova Arma Contra Incêndios Florestais",
+    descricao:
+      "Uma nova constelação de satélites promete detectar incêndios pequenos antes que se tornem desastres incontroláveis, revolucionando a maneira como os bombeiros combatem incêndios florestais.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 5,
+    conteudoNoticia: `
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Uma Constelação de Satélites em Favor da Natureza</h2>
+            <p class="mb-4">O projeto, nomeado FireSat, envolve o lançamento de mais de 50 satélites em órbita terrestre, projetados para monitorar focos de incêndio em tempo real. Ao contrário dos sistemas de satélites já existentes, o FireSat é capaz de detectar incêndios em áreas tão pequenas quanto 5x5 metros — uma sala de aula típica, por exemplo. Esse nível de precisão nunca antes visto permitirá que bombeiros e autoridades respondam a incêndios nas fases iniciais, quando ainda são mais fáceis de controlar.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">A Tecnologia por Trás do FireSat</h2>
+            <p class="mb-4">A colaboração entre a Earth Fire Alliance, uma coalizão sem fins lucrativos, e a startup Muon Space resultou em satélites equipados com sensores avançados e inteligência artificial. Esses satélites, financiados em parte pela Google.org, não só identificam focos de incêndio de forma mais ágil do que os métodos tradicionais, como também mantêm um registro contínuo da propagação das chamas. Com o auxílio de algoritmos customizados, as imagens de áreas críticas são constantemente comparadas para que qualquer mudança, por menor que seja, seja rapidamente identificada como um possível início de incêndio.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Impacto no Combate aos Incêndios</h2>
+            <p class="mb-4">Antes do FireSat, o monitoramento de incêndios dependia muitas vezes de relatos visuais feitos por pessoas em solo ou de aeronaves. Satélites convencionais passavam apenas algumas vezes ao dia sobre áreas específicas, muitas vezes identificando incêndios já em grandes proporções. Com o FireSat, que fará varreduras a cada 20 minutos, a realidade será outra. O tempo de resposta será drasticamente reduzido, salvando vidas, propriedades e ecossistemas que, de outra forma, estariam perdidos para as chamas.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Futuro do Combate a Incêndios</h2>
+            <p class="mb-4">O primeiro satélite FireSat está programado para ser lançado no início de 2025, com três outros previstos para 2026. Ao longo de cinco anos de desenvolvimento, essa tecnologia promete revolucionar a prevenção e controle de incêndios florestais em uma escala global. Segundo Kate Dargan Marquis, ex-marechal de incêndios da Califórnia, essa inovação será um “game changer” para o trabalho de bombeiros. Com os incêndios se tornando mais frequentes e devastadores, a capacidade de detectar e reagir a eles de forma rápida será crucial.</p>
+        </section>
+
+        <section class="pb-8">
+            <p class="mb-4">Fonte: <a href="https://www.theverge.com/2024/9/16/24243996/fire-satellite-google-firesat-constellation" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">The Verge</a></p>
+        </section>
+    `,
+    dataDePublicacao: new Date("09/18/2024"),
+  },
+  {
     id: 977,
     imagem:
       "https://www.criptofacil.com/wp-content/uploads/2022/05/brasileiros-negociam-4-bilhoes-em-bitcoin-em-abril-queda-de-4-em-relacao-a-marco.jpg",
