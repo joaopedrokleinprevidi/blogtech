@@ -11,6 +11,43 @@ export interface GetAllNoticiasProps {
 
 export const getAllNoticias: GetAllNoticiasProps[] = [
   {
+    id: 975,
+    imagem:
+      "https://img.odcdn.com.br/wp-content/uploads/2024/02/Destaque-Ciberseguranca-1024x576.jpg",
+    titulo:
+      "Escassez de Vagas em Cibersegurança Alerta para Crise de Profissionais no Brasil",
+    descricao:
+      "A redução de novas vagas em cibersegurança no Brasil expõe um desequilíbrio crescente entre a demanda por profissionais especializados e a oferta de oportunidades no mercado.",
+    mostrarDescricaoNaNoticia: true,
+    tempoDeLeitura: 4,
+    conteudoNoticia: `
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">A Queda nas Ofertas de Vagas</h2>
+            <p class="mb-4">Dados divulgados pela ISC2 mostram que o número de novas vagas em cibersegurança no Brasil caiu 2,5% em 2024, após três anos de crescimento. Enquanto o país deve encerrar o ano com aproximadamente 752 mil profissionais ativos, o aumento de contratações foi insignificante, com uma variação de apenas 0,4%. Essa desaceleração é um reflexo direto da falta de iniciativas que incentivem o ingresso de novos talentos no setor, o que contrasta com a crescente demanda por segurança digital em todas as indústrias.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Oportunidades Escassas para Novos Talentos</h2>
+            <p class="mb-4">Um dos principais desafios do setor é a falta de pontos de entrada para novos profissionais. A retração nas ofertas de emprego cria um bloqueio para aqueles que estão em busca de iniciar suas carreiras em cibersegurança. Sem oportunidades suficientes de emprego, muitos talentos promissores acabam migrando para outras áreas ou países que oferecem mais suporte à entrada no mercado de trabalho.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Uma Questão de Planejamento Estratégico</h2>
+            <p class="mb-4">Diante desse cenário, o Brasil precisa investir em estratégias que facilitem o crescimento do setor de cibersegurança. Isso inclui incentivar a criação de mais vagas, especialmente para iniciantes, além de desenvolver programas de formação que qualifiquem novos talentos para o mercado. Países como a Espanha e o México, que registraram aumentos de 5,5% e 6,8% nas ofertas de emprego, respectivamente, mostram que é possível reverter essa tendência de queda ao adotar políticas que priorizem a segurança cibernética.</p>
+        </section>
+
+        <section class="pb-8">
+            <h2 class="text-2xl font-semibold mb-4">O Futuro da Cibersegurança no Brasil</h2>
+            <p class="mb-4">Apesar da retração nas ofertas de emprego, a demanda por profissionais de cibersegurança continua crescendo, e o Brasil precisa responder a essa demanda com urgência. Incentivar a criação de vagas e garantir que novos talentos tenham oportunidades de ingressar no mercado é fundamental para o sucesso a longo prazo do setor.</p>
+        </section>
+
+        <section class="pb-8">
+            <p class="mb-4">Fonte: <a href="https://convergenciadigital.com.br/carreira/vagas-em-ciberseguranca-caem-por-falta-de-orcamento-no-brasil-recuo-e-de-25/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Convergência Digital</a></p>
+        </section>
+    `,
+    dataDePublicacao: new Date("09/19/2024"),
+  },
+  {
     id: 976,
     imagem:
       "https://www.diarioeconomico.co.mz/wp-content/uploads/2024/09/satelite-com-IA_Easy-Resize.com_.jpg",
